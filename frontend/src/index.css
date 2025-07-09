@@ -1,0 +1,194 @@
+
+@import "tailwindcss/preflight";
+@tailwind utilities;
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+/* Custom Styles for LandingPage */
+.landing-container {
+  background-image: url('/images/background.png'); /* Use the correct image name and path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  height: 100%;
+}
+
+#navigation {
+  margin: 0;
+  padding: 8px 0;
+  list-style: none;
+}
+#navigation li {
+  /* gap: 50px; */
+  display: inline;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+/* Sign Up */
+
+position: absolute;
+width: 500px;
+height: 630px;
+left: 635px;
+top: 90px;
+gap: 8px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+/* Confirm Your Password */
+
+position: absolute;
+width: 202px;
+height: 26px;
+left: 990.75px;
+top: 438.25px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17.1648px;
+line-height: 26px;
+/* identical to box height */
+
+color: #9A9A9A;
+
+
+/* Already have an account ? Log in */
+
+position: absolute;
+width: 335px;
+height: 30px;
+left: 798px;
+top: 710px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #404040;
+
+/* Password */
+
+position: absolute;
+width: 98px;
+height: 30px;
+left: 635px;
+top: 380px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #404040;
+
+/* signup.png */
+
+position: absolute;
+width: 578px;
+height: 511px;
+left: -251px;
+top: 361px;
+
+background: url(signup.png);
+
+/* signup2.png */
+
+position: absolute;
+width: 550px;
+height: 542px;
+left: 212px;
+top: 330px;
+
+background: url(signup2.png);
+

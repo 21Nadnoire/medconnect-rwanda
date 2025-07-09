@@ -1,0 +1,15 @@
+.admin-topbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #24306E;
+  z-index: 10;
+  position: sticky;
+  top: 0;
+}
+
+.text-dark-blue {
+  color: #24306E; /* Dark blue logo */
+}
+
+.dropdown-menu {
+  font-size: 14px;
+}

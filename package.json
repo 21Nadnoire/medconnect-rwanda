@@ -1,0 +1,20 @@
+{
+  "name": "medconnect",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "frontend": "npm run dev --prefix frontend",
+    "backend": "npm run dev --prefix backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "bootstrap": "^5.3.5",
+    "bootstrap-icons": "^1.11.3",
+    "mysql2": "^3.14.0",
+    "react-bootstrap": "^2.10.9",
+    "recharts": "^2.15.3"
+  }
+}

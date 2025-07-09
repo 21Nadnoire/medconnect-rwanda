@@ -1,0 +1,38 @@
+.admin-settings {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-settings h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.admin-settings form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-settings label {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.admin-settings input,
+.admin-settings textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.admin-settings button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
